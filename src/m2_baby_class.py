@@ -97,7 +97,8 @@ class Baby(object):
         self.count = 0
 
     def feed_baby(self):
-        print("Thank you for feeding baby", self.name)
+        self.count = 0
+        print("Thank you for feeding baby", self.name, "!")
 
     def hour_passes(self):
         self.count += 1
